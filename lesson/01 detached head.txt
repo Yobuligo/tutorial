@@ -1,0 +1,4 @@
+Detached Head
+- It is possible to checkout branches and commits
+- Whenever a branch is checked out, the head is set to the current branch
+- Whenever a commit is checked out, the head is detached (we are not in a specific branch)
