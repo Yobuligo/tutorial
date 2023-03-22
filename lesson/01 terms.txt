@@ -1,0 +1,5 @@
+Working area - the working area is the folder which contains the data
+
+Repository
+    Staging area - the staging area contains the changed files (it points on the changed files). Those files which were added by the add command
+    Commits - contains the general commits
