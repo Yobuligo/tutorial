@@ -1,0 +1,4 @@
+you made a change within a file
+now you want to undo that change.
+Therefore use the command
+git checkout <filename>, which loads the last version of that file
