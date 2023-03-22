@@ -1,0 +1,1 @@
+- the master branch is a very common branch. This means it is possible to delete it, like all other branches.
