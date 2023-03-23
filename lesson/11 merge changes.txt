@@ -1,0 +1,6 @@
+Use command merge to merge changes from one branch to another. It is not even necessary to consider any order.
+This means it is possible to create the branches 1, 2, 3, switch back to 2 make any changes and commit them, switch to 3 branch and merge the second branch
+
+
+git merge <branch-name>
+
