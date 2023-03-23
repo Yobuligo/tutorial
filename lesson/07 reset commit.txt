@@ -1,0 +1,4 @@
+The command reset can be used to rollback a whole commit or even more.
+
+The following command would reset commit of the last HEAD (1 times). This means only the commit is gone, but the change would still stay in the staging area.
+git reset --soft HEAD~1

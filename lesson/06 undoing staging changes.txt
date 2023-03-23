@@ -1,0 +1,6 @@
+Perhaps changes were made and these changes were staged.
+To undo that changes use the following command:
+git reset <filename>        -> this means to undo the staging. Now a change can be rolled back by e.g. using git checkout <filename>.
+
+Alternatively the following command can be used
+git restore --staged <filename>

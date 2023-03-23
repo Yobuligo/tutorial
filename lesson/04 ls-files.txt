@@ -1,4 +1,4 @@
-This command can be used to list the files of the staging area and probably all files which are part of the current branch.
+This command can be used to list the files of the staging area. Each file which was added to the staging area is displayed. Which means even if changes were committed in the past, ls-files contains those files.
 git ls-files
 
 even so if you would delete a file it is still displayed (as it is part of the staging area).

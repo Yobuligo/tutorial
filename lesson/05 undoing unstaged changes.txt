@@ -1,4 +1,11 @@
-you made a change within a file
+you made a change within a file. The change is still unstaged, which means it was not added to the staging area (by command add .)
 now you want to undo that change.
-Therefore use the command
+Therefore use the command. Alternatively the command git restore can be used, which does exactly the same.
+
 git checkout <filename>, which loads the last version of that file
+
+git checkout .      -> means to reload all files which were changed but are not staged yet.
+
+if a new file was created use the command
+git clean -dn       -> to list all files which would be deleted
+git clean -df       -> to force the deletion of the files which were changed but which are not staged yet.
