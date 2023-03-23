@@ -1,0 +1,6 @@
+To remove a branch the command git branch -d can be used or -D to force the deletion.
+It is even possible to remove several branches at once, if required.
+
+git branch -d <name>
+git branch -D (force) <name>
+git branch -d <name> <name2> ... 
