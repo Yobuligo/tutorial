@@ -2,3 +2,12 @@ Detached Head
 - It is possible to checkout branches and commits
 - Whenever a branch is checked out, the head is set to the current branch
 - Whenever a commit is checked out, the head is detached (we are not in a specific branch)
+
+Imagine we have a branch, the master branch with several commits (c1 .. c3)
+master(c1, c2, c3) 
+
+Now we create a new branch feature that gets all the previous commits.
+feature(c1, c2, c3, c4)
+
+If we would checkout now the commit c2 for example, than git could not be aware about to which HEAD (branch) the commit belongs, because c2 belongs two both branches.
+That is why we have a detached HEAD. The HEAD is unknown 
