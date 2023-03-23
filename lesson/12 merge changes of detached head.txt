@@ -1,0 +1,8 @@
+It might happen that we make changes in a detached head.
+How we can persist those changes and assign them to a specific branch.
+
+How to create that scenario?
+1. take a commit and check it out to have a detached HEAD -> git checkout <commit-id>
+2. make changes in that branch, add it to the staging area and commit it. -> now it is committed to the detached HEAD.
+3. create a new branch and it seems that the changes are automatically assigned to that branch -> git branch <branch-name>
+4. switch to the branch where the changes should be added and merge the changes -> git checkout <branch-name> -> git merge <branch-name>

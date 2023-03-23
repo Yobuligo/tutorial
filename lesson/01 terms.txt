@@ -3,3 +3,6 @@ Working area - the working area is the folder which contains the data
 Repository
     Staging area - the staging area contains the changed files (it points on the changed files). Those files which were added by the add command. There is only one staging area.
     Commits - contains the general commits
+
+
+HEAD - means the last commit in a branch
