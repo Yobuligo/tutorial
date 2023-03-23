@@ -1,0 +1,3 @@
+An alternative is the normal reset, which would reset not only the last commit, but it also delete the changes from the staging area.
+
+git reset HEAD~1
