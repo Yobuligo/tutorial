@@ -1,0 +1,5 @@
+Whenever you did some changes in a branch and these changes shouldn't neither committed yet to the branch nor discarded, the command stash can be used to stash (verstauen) the changes separately.
+Later you can access these stashed data.
+
+git stash           - stash changes, which also means to restore the last state of the current branch
+git stash apply     - apply stashed changes to the current branch - Means even if you switch the branch you can apply the stashed data to the new branch
