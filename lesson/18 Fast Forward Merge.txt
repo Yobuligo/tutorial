@@ -1,3 +1,7 @@
 Fast forward:
 Means to merge e.g. a feature branch to the master branch, while no additional commits were added to the master branch after the feature branch was created. So a merge is pretty easy.
 
+git merge <branch-name>             - Merge branch with name <branch-name> into the current branch
+git merge --squash <branch-name>    - Merge branch with name <branch-name> into the current branch without adding the commits of the branch with <branch-name>.
+                                      This means if the <branch-name> had two commits C1 and C2, these Commits wouldn't be displayed within the goal branch.
+                                      In addition the HEAD wouldn't be "HEAD -> master, feature" (which means the HEAD is the same for master and feature) but only "HEAD -> master"
