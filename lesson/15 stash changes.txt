@@ -1,5 +1,11 @@
 Whenever you did some changes in a branch and these changes shouldn't neither committed yet to the branch nor discarded, the command stash can be used to stash (verstauen) the changes separately.
 Later you can access these stashed data.
 
-git stash           - stash changes, which also means to restore the last state of the current branch
-git stash apply     - apply stashed changes to the current branch - Means even if you switch the branch you can apply the stashed data to the new branch
+git stash                               - stash changes, which also means to restore the last state of the current branch
+git stash apply                         - apply stashed changes to the current branch - Means even if you switch the branch you can apply the stashed data to the new branch. It always applies the last stash to the branch (index 0).
+git stash list                          - displays a list of all created stashes with its index
+git stash apply <index>                 - apply stashed changes to the current branch, the given index can be retrieved from the stash list (git stash list). 
+git stash pop <index>                   - Applies the stashed commit with <index> to the current branch and removes the stashed commit from the stash list
+git stash push -m "My stash message"    - Stash changes and provide a separate message (to provide more content to the stash list)
+git stash -m "My stash message"         - An alternative to stash data and provide a separate message
+git stash drop <index>                  - Removes the stash commit with <index> from the stash list
