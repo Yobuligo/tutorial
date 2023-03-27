@@ -1,0 +1,3 @@
+Fast forward:
+Means to merge e.g. a feature branch to the master branch, while no additional commits were added to the master branch after the feature branch was created. So a merge is pretty easy.
+
