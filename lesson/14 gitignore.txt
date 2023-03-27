@@ -1,0 +1,11 @@
+To exclude specific files or folders from git those artifacts can be added to a git ignore file.
+1. Create the ".gitignore" in your projects (root folder)
+2. add e.g. the file name with its ending to the .gitignore file
+
+Possibilities:
+1. <filename>.<ending>      Excludes a specific file (e.g. test.txt)
+2. *.<ending>               Excludes all files with that ending (e.g. *.txt)
+3. *.<ending>               Excludes all files with that ending (e.g. *.txt) but not the given file (e.g. test.txt)
+   !<filename>.<ending>
+4. <foldername>/*           Excludes a whole folder and all its files
+5. <foldername>             Alternative to exclude a whole folder and all its files
