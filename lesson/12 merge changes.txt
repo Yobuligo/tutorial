@@ -4,3 +4,6 @@ This means it is possible to create the branches 1, 2, 3, switch back to 2 make 
 
 git merge <branch-name>
 
+git merge --abort       - Abort / cancel the merge e.g. because of conflicts
+
+git log --merge         - display what should be merged

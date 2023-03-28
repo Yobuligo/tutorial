@@ -1,0 +1,10 @@
+Cherry-pick is another command that can be used for "merging" or "rebasing".
+But cherry pick only provides the content of a specific commit, instead of e.g. all commits of a whole branch. 
+Where does cherry-pick makes sense? Image you are working at a feature. You already provided several commits. Suddenly you realized that there is a mistake in a code you which is part of your feature but also of the e.g. master branch.
+You only want to transfer a correction from your feature branch to the master branch. Here cherry-pick can be used. 
+It transfers a specific commit to a branch which is currently checked out. 
+
+IMPORTANT:
+cherry pick creates a copy of that commit and adds it to the branch. 
+
+git cherry-pick <commit-id>
