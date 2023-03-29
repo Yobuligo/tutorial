@@ -10,3 +10,4 @@ git stash push -m "My stash message"    - Stash changes and provide a separate m
 git stash -m "My stash message"         - An alternative to stash data and provide a separate message
 git stash drop <index>                  - Removes the stash commit with <index> from the stash list
 git stash clear                         - Removes all stash commits from the stash list
+git stash branch <branch-name>          - Applies the stashed data to the given <branch-name>
