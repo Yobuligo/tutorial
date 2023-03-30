@@ -1,4 +1,24 @@
 Remote repositories also contain branches.
 To display all branches, which means local and remote branches, the following command can be used
 
-git branch -a
+git branch -a   (displays the local- and the remote branches)
+git branch -r   (displays the remote branches)
+
+Behind the science there are 3 different types of branches involved.
+
+branch types:
+local branch                            - master                
+                                            |   ^
+                                            V   |
+
+remote tracking branch                  - remote/origin/master
+                                            |   ^ 
+                                            V   |
+
+remote branch (origin repository)       - master
+
+What you can see is, that the remote branch is not directly connected with the local branch. There is always this remote tracking branch between them. 
+This means when calling push or pull the communication always goes over the remote tracking branch.
+Pulling actually means:
+1. to call "git fetch" on the "remote master branch" from the "remote tracking remote/origin/master branch" 
+2. to call "git merge" on the "local master branch" from the "remote tracking remote/origin/master branch"
