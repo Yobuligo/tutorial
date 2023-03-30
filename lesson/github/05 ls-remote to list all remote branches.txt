@@ -6,3 +6,9 @@ git branch -a
 would only display the local branches and the remote tracking branches. To also get the remote branches the following command can be used:
 
 git ls-remote
+
+The command
+
+git fetch origin 
+
+would help to update the remote tracking branches. So after calling the command git branch -a, a list would be displayed which also contains the remote branches, which were fetched from the remote repository.

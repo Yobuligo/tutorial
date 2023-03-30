@@ -1,0 +1,13 @@
+It is even possible to display the content of a remote tracking branch.
+
+Therefore:
+1. you first have to fetch the data from the remote repository by
+    git fetch origin
+
+2. then you can display the branches (remote tracking branches and local branches) by calling
+    git branch -a
+
+3. To display the content of the remote tracking branch you have to call the following command
+    git checkout <remote-tracking-branch>
+
+    e.g. git checkout remotes/origin/feature
