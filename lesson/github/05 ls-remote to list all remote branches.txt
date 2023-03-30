@@ -1,0 +1,8 @@
+As in the previous lesson explained there is a separate remote tracking branch, which is used by the local and remote branch to communicate with each other.
+Using the command
+
+git branch -a 
+
+would only display the local branches and the remote tracking branches. To also get the remote branches the following command can be used:
+
+git ls-remote
