@@ -1,0 +1,4 @@
+Remote repositories also contain branches.
+To display all branches, which means local and remote branches, the following command can be used
+
+git branch -a
