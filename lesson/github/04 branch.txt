@@ -23,3 +23,7 @@ This means when calling push or pull the communication always goes over the remo
 Pulling actually means:
 1. to call "git fetch" on the "remote master branch" from the "remote tracking remote/origin/master branch" 
 2. to call "git merge" on the "local master branch" from the "remote tracking remote/origin/master branch"
+
+
+There is a fourth branch type, the "local tracking branch".
+It is a local reference to the remote tracking branch. For details see the corresponding lesson (local tracking branch).
