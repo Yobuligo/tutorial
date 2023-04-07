@@ -12,3 +12,9 @@ git commit -m "My change"
 git push 
 ... do some changes remote
 git pull 
+
+
+How to get if a branch is a normal branch or a local tracking branch?
+The command git branch will just give the name of the branches, instead you can use the command:
+
+git branch -vv
