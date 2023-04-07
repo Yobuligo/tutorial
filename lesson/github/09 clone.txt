@@ -1,0 +1,3 @@
+To clone an existing remote repository the following command can be used:
+
+git clone <url>

@@ -1,3 +1,8 @@
-To display your server you can use the command
+To display your server you can use the command, which would only display e.g. "origin"
 
 git remote
+
+
+To display more details of your server, you can use the following command. This would print the URL, the name, remote branches, etc.
+
+git remote show origin
