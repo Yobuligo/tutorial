@@ -18,6 +18,7 @@ remote tracking branch                  - remote/origin/master
 remote branch (origin repository)       - master
 
 What you can see is, that the remote branch is not directly connected with the local branch. There is always this remote tracking branch between them. 
+The remote tracking branch is a local copy of the remote branch, which cannot be edit by the developer and managed by the system.
 This means when calling push or pull the communication always goes over the remote tracking branch.
 Pulling actually means:
 1. to call "git fetch" on the "remote master branch" from the "remote tracking remote/origin/master branch" 
