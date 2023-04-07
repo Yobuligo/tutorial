@@ -1,0 +1,3 @@
+A remote branch can be deleted as follows. This automatically also deletes the corresponding remote tracking branch!
+
+    git push origin --delete <branch-name>
