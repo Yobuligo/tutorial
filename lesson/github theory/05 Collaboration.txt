@@ -1,0 +1,4 @@
+It is even possible to work together on private repositories. 
+Open the repository -> settings -> Manage Access -> Invite Collaborator
+
+Here there is not need to provide a separate access token. Instead the invites users access token can be used.
