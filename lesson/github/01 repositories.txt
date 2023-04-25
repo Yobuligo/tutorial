@@ -9,3 +9,5 @@ git remote add origin <url>
 
 What does 'origin' means?
 It actually means the name of the remote machine or alias/shorthand for the given <url> of the remote repository.
+
+There are 
