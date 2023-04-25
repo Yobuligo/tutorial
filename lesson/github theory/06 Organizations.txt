@@ -2,3 +2,9 @@ There is a possibility to create Organizations.
 An organization can contain of various repositories. Actually it is some kind of github user.
 As for user specific projects, it is also possible to invite other developer. 
 BUT there is also the possibility to set a specific permission to that user. (Read, Write, Maintain, Admin, etc.)
+
+
+People can be added to a organization.
+Also it is possible to set the permissions for the added member.
+Unfortunately these permissions are globally for the whole organization. This means if a member has writing permissions, the user has that permission for all repositories.
+But what if you want to authorize the users more granular? There it seems teams come into play.
