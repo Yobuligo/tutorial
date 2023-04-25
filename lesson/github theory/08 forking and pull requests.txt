@@ -7,3 +7,4 @@ Clone is a specific git command but there is no git command to fork.
 A pull request is an extension, correction of code, which should be added to an existing repository. Imagine the developer forked a repository. So the user is no collaborator, which could commit maybe directly in a repository.
 So instead, to provide a change, the user has to create a pull request. The pull request means to request to merge the correction in a repository. 
 The integration of a pull request must be done by a member or owner of the repository. Even it is requested by an external user of the repository.
+The pull request can be declined. The owner or member can provide comments, ask questions, etc.
