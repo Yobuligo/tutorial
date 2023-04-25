@@ -1,0 +1,4 @@
+There is a possibility to create Organizations. 
+An organization can contain of various repositories. Actually it is some kind of github user.
+As for user specific projects, it is also possible to invite other developer. 
+BUT there is also the possibility to set a specific permission to that user. (Read, Write, Maintain, Admin, etc.)
