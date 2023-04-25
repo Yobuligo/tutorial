@@ -8,3 +8,9 @@ People can be added to a organization.
 Also it is possible to set the permissions for the added member.
 Unfortunately these permissions are globally for the whole organization. This means if a member has writing permissions, the user has that permission for all repositories.
 But what if you want to authorize the users more granular? There it seems teams come into play.
+
+Teams are part of an organization.
+Teams can be stacked. 
+Teams can contain members which can be authorized separately. 
+Teams can have repositories. This repositories belong to the organization. So these repositories are just assigned to the team.
+Teams can have separate different permissions for different repositories. E.g. for one repository the team can have write permissions and for another it only has read permissions. 
