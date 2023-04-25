@@ -25,5 +25,5 @@ Rebase means to provide new ids for the existing commits of the current branch, 
 
 When to use it.
 So in general it most makes sense if you are implementing a new feature which is not integrated in any other branch. And especially not used by another user. 
-But you need an extension for you feature which was implemented after you created your branch (here commit C3). 
+But you need an extension for your feature which was implemented after you created your branch (here commit C3). 
 Then you can rebase to master (from your feature branch) to provide the feature to your branch.

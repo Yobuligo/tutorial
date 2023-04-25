@@ -1,0 +1,3 @@
+A repository can be set as public or private.
+Private repositories are only visible by yourself.
+Anyway each collaborator has even access to your repository if it is a private repository, even it will set to private later.
