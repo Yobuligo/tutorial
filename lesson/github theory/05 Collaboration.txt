@@ -1,0 +1,7 @@
+It is even possible to work together on private repositories. 
+Open the repository -> settings -> Manage Access -> Invite Collaborator
+
+Here there is not need to provide a separate access token. Instead the invites users access token can be used.
+
+Collaboration is not contributing.
+Contributing means more to add value to a project, repository what ever, but the contributor must not be part of a repository, organization or team.

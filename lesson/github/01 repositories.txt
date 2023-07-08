@@ -1,0 +1,13 @@
+There are 2 Repository types
+- local repository
+- remote repository
+
+Remote repositories are e.g. hosted by Github.
+
+How to connect a local repository with a remote repository?
+git remote add origin <url>
+
+What does 'origin' means?
+It actually means the name of the remote machine or alias/shorthand for the given <url> of the remote repository.
+
+There are 

@@ -1,0 +1,3 @@
+To fetch data from the remote repository to the local repository the following command can be used.
+
+git pull

@@ -1,0 +1,12 @@
+Branches are used to group changes. A branch can have several commits. It is possible to have various branches.
+To create a branch the following command can be used.
+
+    git branch <branch-name>
+
+Now the branch was only created. To switch to that branch the checkout command can be used.
+
+    git checkout <branch-name>
+
+To do both in one, which means to create a branch and to switch to that branch, the checkout command can be used with parameter -b
+
+    git checkout -b <branch-name>

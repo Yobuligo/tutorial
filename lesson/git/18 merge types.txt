@@ -1,0 +1,4 @@
+There a three merge types:
+
+- fast forward
+- recursive

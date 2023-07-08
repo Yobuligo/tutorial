@@ -1,0 +1,3 @@
+A remote tracking branch can be delete with
+
+    git branch --delete --remote origin/<branch-name>

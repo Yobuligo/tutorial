@@ -1,0 +1,6 @@
+To push data from the local repository to the remote repository the following steps have to be done:
+1. create repositories
+2. Connect the local repository with the remote repository.
+3. use the following command
+
+git push

@@ -1,0 +1,5 @@
+if branches or commits were deleted the deletion can be undo with the reflog command. 
+It displays all changes which were made, even deleted once. 
+These commits only stay for 30 days. But during this time you can just copy the id and checkout this deleted change
+
+git reflog      - Displays a list with all activities? Take the id to checkout the deleted commit or branch

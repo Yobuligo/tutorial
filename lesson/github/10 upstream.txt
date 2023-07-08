@@ -1,0 +1,17 @@
+Local tracking branches are more comfortable and probably more save than normal branches.
+So it makes sense to use it more often.
+Hint: local tracking branches, are local branches, which are directly connected with e remote tracking branch. Which means I can use push and pull without the need to provide "origin <branch-name>".
+
+But as long as I have no remote branch, from which I can create local tracking branch by using git branch --track <branch-name> origin/<branch-name>, I wasn't able so far to create a local tracking branch.
+Beside when I create a new branch from  local, push it, delete it and recreate it to create that local tracking branch.
+
+git push origin <branch-name>
+git checkout master
+git branch --track 
+
+But it is even more easy.
+Just use the "upstream" in the push command. So create a new branch and whenever you push for the first time use the following command
+
+git push -u origin <branch-name>
+
+Now not only the changes are pushed to the remote repository into a new branch <branch-name>, which is created, but locally the branch is converted to a local tacking branch.

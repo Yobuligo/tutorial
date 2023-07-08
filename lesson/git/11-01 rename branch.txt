@@ -1,0 +1,6 @@
+To rename a branch the following command can be used.
+
+    git branch -m <current-branch-name> <new-branch-name>
+
+    e.g.
+    git branch -m master main

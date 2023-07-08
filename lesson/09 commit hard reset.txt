@@ -1,8 +1,0 @@
-The hard reset means to remove the last commit, remove the changes from the staging area and to remove e.g. files or changes from the working area.
-git reset --hard HEAD~1
-
-
-git reset --soft        Removes last commit
-git reset               Removes last commit     Removes changes from the staging area
-git reset --hard        Removes last commit     Removes changes from the staging area       Removes changes from the work area
-

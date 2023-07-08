@@ -1,0 +1,10 @@
+Where do use github? 
+
+1. the single user
+    - uses github as cloud storage
+    - portfolio page
+
+
+2. multiple user
+    - collaboration projects (with many user)
+    - contribution (open source projects, to work local on a community contribution)

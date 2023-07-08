@@ -1,0 +1,7 @@
+The recursive merge occurs or even can be triggered in the following scenario.
+1. You have the master branch and create a feature branch out of the master branch.
+2. The feature branch is extend by several changes which costs 2 commits.
+3. But also the master branch is extended by changes and contains additional commits.
+
+So it is not possible directly to fast forward the commits of the feature branch to the master branch. Perhaps there are conflicts.
+Instead the merge takes over the changes and if no conflicts exists it automatically does a separate commit, but anyway there is that commit.

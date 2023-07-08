@@ -1,0 +1,13 @@
+To highlight a specific commit it can be done via tags.
+So a tag can be used instead of a commit id for example.
+
+there are two tag types
+- lightweight tag
+- annotated tag (this tag can have a message, contains information about the creator and the creation date)
+
+git tag                                     - displays the current tags
+git tag 1.0 <commit-id>                     - adds a lightweight tag with name "1.0" which refers to the commit with id <commit-id>
+git show <tag-id>                           - displays the tag with tag-id <tag-id>
+git checkout <tag-id>                       - checks out the commit which is assigned to the <tag-id>
+git tag -d <tag-id>                         - deletes the tag with the given <tag-id>
+git tag -a <tag-id> -m "<tag-message>"      - adds an annotated tag with the given <tag-id> and the message <tag-message>

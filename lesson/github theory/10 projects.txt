@@ -1,0 +1,1 @@
+Projects can be used to structure issues and pull requests.

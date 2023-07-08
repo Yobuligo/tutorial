@@ -1,0 +1,1 @@
+Issues is a tab for a repository, which contains issues (bugs), which can be provided / published by user and should be fixed by the repository owner / user.

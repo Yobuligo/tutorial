@@ -1,0 +1,7 @@
+To clone an existing remote repository the following command can be used:
+
+git clone <url>
+
+To clone a repository without to create a separate folder for that repository, e.g. if it was already created previously, you can use the following command to copy the files for the repository in the current folder:
+
+git clone <url> .

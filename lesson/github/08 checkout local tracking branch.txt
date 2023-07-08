@@ -1,0 +1,23 @@
+A local tracking branch is connected to a remote tracking branch, it refers to that remote tracking branch.
+What is it good for. It is good for to omit the remote branch details in commands like push and pull, as the local tracking branch anyway directly refers to the remote tracking branch and at the end to the remote branch.
+
+To create such a branch the following command can be used. It seems to be important that the local tracking branch gets the same name as the remote tracking branch, here <remote-branch>:
+
+git branch --track <remote-branch> origin/<remote-branch>
+
+Now if changes are made to that branch they must be added and committed, but, as mentioned, it is possible to omit the remote-branch details
+... do some changes
+git add .
+git commit -m "My change"
+git push 
+... do some changes remote
+git pull 
+
+
+How to get if a branch is a normal branch or a local tracking branch?
+The command git branch will just give the name of the branches, instead you can use the command:
+
+git branch -vv
+
+
+A more easy variant is to use "upstream". Therefore see chapter "upstream".

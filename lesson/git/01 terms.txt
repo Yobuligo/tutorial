@@ -6,3 +6,9 @@ Repository
 
 
 HEAD - means the last commit in a branch
+
+
+File types in Git:
+    untracked (unstaged changes) - not in the staging area
+    tracked (staged changes) - added to the staging area
+    ignored - won't be ignored and so never added to the staging area

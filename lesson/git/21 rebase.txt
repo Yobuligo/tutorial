@@ -1,0 +1,29 @@
+What means rebase?
+Rebase means to provide a new base, a new base commit for a branch.
+
+Lets assume the following scenario:
+I have two branches. The feature branch based on the commit C2 of the master branch. The feature will be implemented and had two additional commits F1 and F2.
+But now also the master branch will be extended by commit C3.
+
+master          C1  ->    C2   ->   C3
+                          |  
+feature                   C2   ->   F1   ->   F2
+
+
+
+And now I want to merge the feature to the master e.g. I can either merge or I can rebase. Rebase means to provide a new base for a branch. 
+git rebase master           - means to provide the last commit of the branch master to the current branch (e.g. feature)
+The result would be the following. Feature would now base on C3.
+
+master          C1  ->    C2   ->   C3
+                          |  
+feature                   C2   ->   C3   ->   F1   ->   F2
+
+
+IMPORTANT:
+Rebase means to provide new ids for the existing commits of the current branch, here F1 and F2. This means if somebody already addresses one of these branches, it wont be possible to assign them now after rebasing.
+
+When to use it.
+So in general it most makes sense if you are implementing a new feature which is not integrated in any other branch. And especially not used by another user. 
+But you need an extension for your feature which was implemented after you created your branch (here commit C3). 
+Then you can rebase to master (from your feature branch) to provide the feature to your branch.
